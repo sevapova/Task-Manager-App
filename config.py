@@ -11,3 +11,4 @@ class Settings:
     DBNAME = os.getenv("DBNAME")
 
 settings = Settings()
+

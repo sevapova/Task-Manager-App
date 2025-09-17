@@ -25,3 +25,4 @@ tasks = Table(
     Column("description", Text, nullable=False, default=''),
     Column("user_id", ForeignKey('users.id')),
 )
+
